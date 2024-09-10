@@ -9,4 +9,10 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <Content Remove="wwwroot\undraw_grand_slam_84ep.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\undraw_grand_slam_84ep.svg" />
+  </ItemGroup>
 </Project>
